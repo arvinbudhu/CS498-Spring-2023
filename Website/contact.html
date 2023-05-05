@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+  <title> Contact Page </title>
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <p><a href="index.html"><img src="Images/logo.png" title = "Click here to go back home"style="width:150px;height:150px;"></a></p>
+
+          <i class="fa fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">YS Danny's Jewelry</div>
+          <div class="text-two">114-01 Liberty Ave,</div>
+          <div class="text-three">Queens, NY 11419</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">718-529-3500</div>
+          <p></p>
+          <div class="text-two">718-529-8383</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">ysdannysjewelry@gmail.com</div>
+          <div class="text-two">rudysingh00@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Please Call, Email or Visit!</div>
+        <p>We accept calls during store hours from 10AM-7PM and feel free to email us anytime!
+        </p>
+        
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="ab05e67e-46e5-49e6-b460-0a92aac857d4">
+        <div class="input-box">
+          <input type="text"name="name" required placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="email"name="email"required placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box" placeholder="Enter your message">
+            <textarea name="message" required></textarea>
+      
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+        </div>
+        <div class="submit">
+          <input type="submit" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
